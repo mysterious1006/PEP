@@ -1,0 +1,9 @@
+t=float(input('time: '))
+if t>=12 and t<16:
+    print("Good Afternoon")
+elif t>=16 and t<20:
+    print("Good evening")
+elif t>=20 and t<0:
+    print("Good Evening")
+else:
+    print("Good morning")
